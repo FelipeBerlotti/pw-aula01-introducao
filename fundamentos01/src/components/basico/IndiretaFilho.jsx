@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 export default props => {
 
-    const [nome, setNome] = useState('Yasmin Soares Ferreira')
+    const [nome, setNome] = useState('Felipe da Cruz Berlotti')
 
     return(
         <div>

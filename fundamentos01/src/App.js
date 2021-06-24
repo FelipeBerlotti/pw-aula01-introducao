@@ -27,22 +27,21 @@ class App extends Component{
           </Card>
 
         <Card titulo="Componentes alinhados (CloneElement)" cor="#82212e">
-          <FamiliaClone sobrenome="Soares Ferreira">
-            <FamiliaMembroClone nome="Oseias Junior" />
-            <FamiliaMembroClone nome="Adriana" />
-            <FamiliaMembroClone nome="Yasmin" />
-            <FamiliaMembroClone nome="Yanni" />
-            <FamiliaMembroClone nome="Oséias" />
+          <FamiliaClone sobrenome="Berlotti">
+            <FamiliaMembroClone nome="Felipe da Cruz" />
+            <FamiliaMembroClone nome="Adele Maria da Cruz" />
+            <FamiliaMembroClone nome="Fernanda da Cruz" />
+            <FamiliaMembroClone nome="Luis Carlos" />
           </FamiliaClone>
 
         </Card> 
 
         <Card titulo="Componentes alinhados" cor="#d1495b">
-          <Familia sobrenome="Soares Ferreira" />
+          <Familia sobrenome="Berlotti" />
         </Card>
 
         <Card titulo="Propriedades" cor="#91cb3e">
-          <Propriedades nome="Yasmin" sobrenome="Soares" idade={16}/>
+          <Propriedades nome="Felipe" sobrenome="Berlotti" idade={16}/>
         </Card>
         
         <Card titulo="Olá Mundo!" cor="#226ce0">
